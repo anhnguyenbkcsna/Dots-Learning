@@ -18,7 +18,7 @@ namespace cube
         {
             float deltaTime = SystemAPI.Time.DeltaTime;
             // assume that the edge is 5 for collision 
-            float edge = 5;
+            float edge = 10;
 
             // Loop over every entity having a LocalTransform component and RotatingSpeed component.
             // In each iteration, transform is assigned a read-write reference to the LocalTransform,
